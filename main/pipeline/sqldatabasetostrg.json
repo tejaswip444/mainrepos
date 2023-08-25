@@ -37,6 +37,56 @@
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "EID",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EID",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EName",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EName",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Esalary",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Esalary",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Addres",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Addres",
+									"type": "String",
+									"physicalType": "String"
+								}
+							}
+						],
 						"typeConversion": true,
 						"typeConversionSettings": {
 							"allowDataTruncation": true,
